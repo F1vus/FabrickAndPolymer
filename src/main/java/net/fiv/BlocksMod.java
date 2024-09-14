@@ -4,6 +4,7 @@ import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
 import net.fabricmc.api.ModInitializer;
 
 import net.fiv.blocks.ModBlocks;
+import net.fiv.blocks.PolymerBlocks;
 import net.fiv.items.ModItems;
 import net.fiv.items.PolymerItems;
 import org.slf4j.Logger;
@@ -20,6 +21,7 @@ public class BlocksMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		PolymerItems.registerModItems();
+		PolymerBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 		if (PolymerResourcePackUtils.addModAssets(MOD_ID)) {
 			LOGGER.info("[{}]:Successfully added mod assets.", MOD_ID);

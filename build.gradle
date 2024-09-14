@@ -35,6 +35,9 @@ dependencies {
 
 	modImplementation include("eu.pb4:polymer-core:0.9.9+1.21")
 	modImplementation include("eu.pb4:polymer-resource-pack:0.9.9+1.21")
+	modImplementation("eu.pb4:polymer-autohost:0.9.9+1.21")
+	modImplementation include("eu.pb4:polymer-blocks:0.9.9+1.21")
+	modImplementation include("eu.pb4:polymer-resource-pack:0.9.9+1.21")
 }
 
 processResources {

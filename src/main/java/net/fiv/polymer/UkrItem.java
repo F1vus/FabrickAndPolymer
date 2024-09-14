@@ -11,13 +11,13 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.Nullable;
 
-public class PolymerLaptop extends SimplePolymerItem {
+public class UkrItem extends SimplePolymerItem {
+
     private final PolymerModelData polymerModel;
 
-    public PolymerLaptop(Settings settings, String modelId) {
-        super(settings, Items.BONE);
-
-        polymerModel = PolymerResourcePackUtils.requestModel(Items.BONE, Identifier.of(BlocksMod.MOD_ID, modelId).withPrefixedPath("item/"));
+    public UkrItem(Settings settings, String modelId) {
+        super(settings, Items.DIAMOND_BLOCK);
+        this.polymerModel = PolymerResourcePackUtils.requestModel(Items.GOLD_BLOCK, Identifier.of(BlocksMod.MOD_ID, "block/" + modelId));
     }
 
     @Override

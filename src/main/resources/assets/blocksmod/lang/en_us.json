@@ -3,5 +3,7 @@
 
   "block.blocksmod.petro_block": "Блок Петра",
 
-  "item.blocksmod.laptop": "Ноут"
+  "item.blocksmod.laptop": "Ноут",
+
+  "block.blocksmod.ukr_block": "УМК блок"
 }
