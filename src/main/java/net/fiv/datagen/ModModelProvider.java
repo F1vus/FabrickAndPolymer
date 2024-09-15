@@ -23,7 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.PIWKO, Models.GENERATED);
+        itemModelGenerator.register(PolymerItems.PIWKO, Models.GENERATED);
         itemModelGenerator.register(PolymerItems.LAPTOP, Models.GENERATED);
     }
 }

@@ -22,7 +22,6 @@ public class BlocksMod implements ModInitializer {
 
 		PolymerItems.registerModItems();
 		PolymerBlocks.registerModBlocks();
-		LOGGER.info("Hello Fabric world!");
 		if (PolymerResourcePackUtils.addModAssets(MOD_ID)) {
 			LOGGER.info("[{}]:Successfully added mod assets.", MOD_ID);
 		} else {
