@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:yellow_wool"
+    },
+    "S": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "pattern": [
+    "S",
+    "G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocksmod:ukr_block"
+  }
+}

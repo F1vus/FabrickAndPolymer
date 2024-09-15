@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class PolymerBlocks {
 
-    private static final Block UKR_BLOCK = registerBlock("ukr_block",
+    public static final Block UKR_BLOCK = registerBlock("ukr_block",
             new PolymerUkrBlock(AbstractBlock.Settings.create().strength(1.5f),
             BlockModelType.FULL_BLOCK, "ukr_block"));
 
@@ -26,7 +26,7 @@ public class PolymerBlocks {
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(BlocksMod.MOD_ID, name),
-                new UkrItem(new Item.Settings(), "ukr_block"));
+                new UkrItem(block, new Item.Settings(), "ukr_block"));
     }
 
     public static void registerModBlocks(){
